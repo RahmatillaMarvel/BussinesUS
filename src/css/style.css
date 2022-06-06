@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #16163f;
+  cursor: default;
+}
+a,
+button {
+  cursor: pointer;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 5vw;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 3vw;
+  z-index: 1000;
+  background-color: #fff;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 5vw;
+  z-index: -1;
+}
+header .logo {
+  font-size: 2.5vw;
+  font-weight: 500;
+}
+header ul {
+  display: flex;
+  font-size: 1.5vw;
+  padding: 0.6vw;
+}
+header ul li {
+  padding-right: 2vw;
+}
+header ul li a {
+  color: #16163f;
+}
+.active,
+header ul li a:hover {
+  color: #9e3ffd;
+}
+
+button {
+  color: #fff;
+  width: 10vw;
+  height: 3vw;
+  background-color: #9e3ffd;
+  font-size: 1.3vw;
+  border: none;
+  border-radius: 5vw;
+}
+button:hover {
+  background-color: #16163f;
+}
+.main {
+  padding: 5vw 9vw;
+}
+.main h1 {
+  font-size: 7vw;
+  color: #16163f;
+}
+.main p {
+  font-size: 2vw;
+  padding-bottom: 2vw;
+}
+
+.services {
+  position: relative;
+  width: 100%;
+  height: 80vw;
+  border: 1px solid #000;
+  padding: 10vw 5vw;
+}
+.services .title {
+  text-align: center;
+  width: 100%;
+  color: #9e3ffd;
+  font-family: "open-sans", sans-serif;
+  padding-bottom: 2vw;
+}
+.services .business {
+  text-align: center;
+  width: 100%;
+  color: #16163f;
+  font-family: "roboto", sans-serif;
+  padding-bottom: 15vw;
+}
+.services .service {
+  display: flex;
+  justify-content: space-between;
+}
+.services .service div {
+  text-align: center;
+  overflow: hidden;
+}
+.services .service div h1 {
+  font-size: 1.4vw;
+}
+.services .service div img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 17vw;
+  padding-bottom: 2vw;
+}
+.services .service div h1 {
+  padding-bottom: 1vw;
+}
+.services .service div p {
+  font-size: 1.5vw;
+}
+.services .ourfacts {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 34vw;
+  background-color: #16163f;
+  padding: 5vw;
+  margin-top: 10vw;
+}
+.services .ourfacts h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.8vw;
+  padding-bottom: 4vw;
+}
+.services .ourfacts div {
+  display: flex;
+}
+.services .ourfacts div div,
+.services .ourfacts div div span {
+  display: block;
+  color: #fff;
+  padding-right: 5vw;
+}
+.services .ourfacts div h1 {
+  font-size: 1.5vw;
+  text-align: center;
+}
+.services .ourfacts div div span {
+  font-size: 6.6vw;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 5vw;
+}
+.experience,
+.experts,
+.clients {
+  position: relative;
+}
+.services .ourfacts .experience::after,
+.experts::after,
+.clients::after {
+  content: "";
+  position: absolute;
+  top: 5vw;
+  left: 20vw;
+  width: 0.5vw;
+  height: 0.5vw;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.ourfactsplace {
+  position: relative;
+  width: 100%;
+  height: 30vw;
+}
+.aboutUs {
+  width: 100%;
+  height: 40vw;
+  padding: 0 10vw;
+}
+.aboutUs .title {
+  color: #9e3ffd;
+  font-size: 1.5vw;
+  padding-bottom: 1vw;
+}
+.aboutUs h1 {
+  padding-bottom: 2vw;
+}
+.aboutUs .text {
+  font-size: 2.5vw;
+}
