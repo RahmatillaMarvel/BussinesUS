@@ -240,3 +240,21 @@ button:hover {
   margin-right: 1.1vw;
   cursor: pointer;
 }
+.ourClients{
+  width: 100%;
+  height: 20vw;
+}
+.ourClients .title{
+  text-align: center;
+  font-weight: 600;
+  font-size: 2vw;
+  padding: 2vw;
+}
+.clients{
+  display: flex;
+}
+.ourClients img{
+  width: 20vw;
+  height: 10vw;
+  object-fit: cover;
+}
