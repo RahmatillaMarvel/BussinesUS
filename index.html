@@ -117,30 +117,75 @@
   </div>
   <div class="ourClients" id="clients">
     <div class="title">НАШИ КЛИЕНТЫ</div>
-      <div class="clients">
-        <img src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg" alt="">
-        <img src="https://webtoolfeed.files.wordpress.com/2011/09/c6800c2bf93ad6abdaa14e6e94ff803a1.png" alt="">
-        <img src="https://uh.edu/marcom/_images/brand/logo-uh-primary-black.svg" alt="">
-        <img src="https://webtoolfeed.files.wordpress.com/2011/09/angelos-l1.jpg" alt="">
-        <img src="https://webtoolfeed.files.wordpress.com/2011/09/030811-072007am_tumblr_lhmps1mkv11qhx5pzo1_5001.jpg" alt="">
-      </div>
+    <div class="clients">
+      <img src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/evolving_google_identity_2x1.jpg"
+        alt="">
+      <img src="https://webtoolfeed.files.wordpress.com/2011/09/c6800c2bf93ad6abdaa14e6e94ff803a1.png" alt="">
+      <img src="https://uh.edu/marcom/_images/brand/logo-uh-primary-black.svg" alt="">
+      <img src="https://webtoolfeed.files.wordpress.com/2011/09/angelos-l1.jpg" alt="">
+      <img src="https://webtoolfeed.files.wordpress.com/2011/09/030811-072007am_tumblr_lhmps1mkv11qhx5pzo1_5001.jpg"
+        alt="">
     </div>
+  </div>
+  <div id="div">
     <div class="contacts" id="contacts">
       <div class="title">КОНТАКТЫ</div>
+
+      <h1>Мы ждем вас</h1>
+      <p class="address">ул. Арбат, 1а, Москва, 119019, Россия</p>
+      <p class="e-mail">info@mysite.ru</p>
+      <p class="tel-num">т. +7 123 456-78-90</p>
+      <div class="socialMedias">
+        <a href="#">
+          <ion-icon name="logo-vk"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="https://github.com/RahmatillaMarvel">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
     </div>
-    <h1>Мы ждем вас</h1>
-    <p class="address">ул. Арбат, 1а, Москва, 119019, Россия</p>
-    <p class="e-mail">info@mysite.ru</p>
-    <p class="tel-num">т. +7 123 456-78-90</p>
-    <div class="socialMedias">
-
+    <form action="" method="get">
+      <div style="display: flex">
+        <div class="name">
+          <label for="name">Имя</label>
+          <input type="text" class="w-100" id="name" required>
+        </div>
+        <div class="surename">
+          <label for="surename">Фамилия</label>
+          <input type="text" class="w-100" id="surename" required> 
+        </div>
     </div>
+      
+      <div class="email">
+        <label for="email">Эл. почта <span>*</span></label>
+        <input type="email" class="w-100" id="email" required>
+      </div>
+      <div class="message">
+        <label for="message">Текст сообщения...</label>
+        <textarea id="message" class="w-100" cols="30" rows="10" required></textarea>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Отправить">
+      </div>
+      
+    </form>
+
+  </div>
 
 
-    <!-- Ion-Icon -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  <!-- Ion-Icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="./src/js/script.js"></script>
+
 </body>
 
 </html>

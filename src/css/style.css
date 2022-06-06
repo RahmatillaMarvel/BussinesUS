@@ -52,7 +52,7 @@ header ul li a:hover {
   color: #9e3ffd;
 }
 
-button {
+button, input[type=submit] {
   color: #fff;
   width: 10vw;
   height: 3vw;
@@ -246,6 +246,7 @@ button:hover {
 }
 .ourClients .title{
   text-align: center;
+  color: #16163f;
   font-weight: 600;
   font-size: 2vw;
   padding: 2vw;
@@ -257,4 +258,71 @@ button:hover {
   width: 20vw;
   height: 10vw;
   object-fit: cover;
+}
+.contacts{
+  width: 45vw;
+  padding: 4vw 7vw;
+  font-size: 1.8vw;
+}
+.contacts .title{
+  color: #9e3ffd;
+  font-size: 1.5vw;
+  padding-bottom: 2vw;
+}
+.contacts h1{
+  padding-bottom: 2vw;
+}
+.contacts p{
+  padding-bottom: .5vw;
+  color: #16163f;
+  cursor: text;
+}
+.socialMedias{
+  padding-top: 2vw;
+  color: #000;
+}
+.socialMedias a, ion-icon{
+  cursor: pointer;
+}
+#div{
+  display: flex;
+}
+form{
+  width: 50vw;
+}
+.w-100{
+  width: 100%;
+}
+form .name{
+  margin-right: 2vw;
+}
+form label{
+  font-size: 1.5vw;
+}
+form input, form textarea{
+  border: none;
+  border-bottom: 1px solid #000;
+  cursor: text;
+  height: 2vw;
+  font-size: 1.1vw;
+  resize: none;
+}
+form textarea{
+  height: 5vw;
+}
+form input:focus , form textarea:focus{
+  outline: none;
+  border-bottom: 1px solid #9e3ffd
+}
+.name, .surename, .email, .message{
+  margin-bottom: 2vw;
+}
+form input:hover, form textarea:hover{
+  color: #16163f;
+}
+/* Selects a scoped element */
+input:checked {
+  color: white;
+  border-bottom: 1px solid red
+
 }
